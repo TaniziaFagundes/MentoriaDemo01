@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #484e5e;
+    --secundary-color: rgb(244, 240, 240);
+    --title-color: #fee5d1;
+}
+
+.content{
+    display: flex;
+    
+}
+
+.perfil{
+    background-color:#484e5e;
+    width: 40%;
+    padding:40px;
+    color: var(--title-color)
+}
+
+li{
+
+    list-style-type: none;
+}
+.details{
+    background-color: var(--secundary-color);
+    width: 60%;
+    padding: 40px;
+    color: var(--primary-color);
+}
+
+.title-details{
+    background-color: var(--title-color); 
+    width:80%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.subTitle-details{
+    font-size: 18px;
+}
+
+.description{
+    font-size: 15px;
+}
